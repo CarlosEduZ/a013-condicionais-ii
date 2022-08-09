@@ -1,4 +1,4 @@
-let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase();
+let nacionalidade = prompt("Qual País você nasceu?").toLowerCase();
 
 // if(nacionalidade === "brasileira"){
 //     console.log("a pessoa é do Brasil!");
@@ -15,19 +15,19 @@ let nacionalidade = prompt("digite aqui a nacionalidade").toLowerCase();
 // }
 
 switch(nacionalidade){
-    case "brasileira":
+    case "brasil":
         console.log("a pessoa é do Brasil!")
         break;
     case "argentina":
         console.log("a pessoa é da Argentina!")
         break;
-    case "uruguaia":
+    case "uruguai":
         console.log("a pessoa é do Uruguai!")
         break;
-    case "chilena":
+    case "chile":
         console.log("a pessoa é do Chile!")
         break;
-    case "colombiana":
+    case "colombia":
         console.log("a pessoa é da Colômbia!")
         break;
     default:
